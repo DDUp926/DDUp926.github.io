@@ -1,14 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <title>盛铂清 | 个人主页</title>
+  <meta charset="UTF-8">
+  <title>盛博清 | 学术主页</title>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   "Helvetica Neue", Arial, "Noto Sans", "PingFang SC",
+                   "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background-color: #ffffff;
+      color: #222;
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 780px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 0.2em;
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: 1.4em;
+      margin-top: 2em;
+      margin-bottom: 0.6em;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 4px;
+    }
+
+    p {
+      margin: 0.4em 0;
+    }
+
+    ul {
+      padding-left: 1.2em;
+    }
+
+    li {
+      margin: 0.4em 0;
+    }
+
+    a {
+      color: #0055aa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .meta {
+      color: #555;
+      font-size: 0.95em;
+    }
+
+    .footer {
+      margin-top: 4em;
+      font-size: 0.85em;
+      color: #777;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>盛铂清</h1>
-  <p>中国科学院大学</p>
-  <p>数学与应用数学专业本科生</p>
-  <p>研究方向：机器学习</p>
-  <p>Email: boqingsheng@gmail.com</p>
+  <div class="container">
+
+    <h1>盛博清</h1>
+    <p class="meta">
+      中国科学院大学 ｜ 数学与应用数学（本科）
+    </p>
+    <p class="meta">
+      Email: <a href="mailto:boqingsheng@gmail.com">boqingsheng@gmail.com</a>
+    </p>
+
+    <h2>About Me</h2>
+    <p>
+      我是中国科学院大学数学与应用数学专业的本科生，主要兴趣在于
+      理论机器学习、统计学习理论以及数值偏微分方程。
+    </p>
+
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Statistical Learning Theory（VC 维，Rademacher Complexity）</li>
+      <li>Reinforcement Learning for Combinatorial Optimization</li>
+      <li>Numerical Methods for PDEs (Stokes equations)</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Stokes 方程的数值求解</strong><br>
+        使用 V-cycle DGS、Uzawa 及 Inexact Uzawa 方法求解有限差分 Stokes 系统。
+      </li>
+      <li>
+        <strong>基于强化学习的 Kissing Number 改进尝试</strong><br>
+        使用 Gram 矩阵搜索与 RL 策略进行高维球堆积下界实验。
+      </li>
+    </ul>
+
+    <h2>Notes</h2>
+    <ul>
+      <li>VC 维与增长函数的等价刻画</li>
+      <li>Rademacher 复杂度与泛化误差上界</li>
+      <li>Stokes 系统的 Uzawa 迭代分析</li>
+    </ul>
+
+    <h2>Curriculum Vitae</h2>
+    <p>
+      <a href="cv.pdf">CV (PDF)</a> （待更新）
+    </p>
+
+    <div class="footer">
+      Last updated: 2026
+    </div>
+
+  </div>
 </body>
 </html>
